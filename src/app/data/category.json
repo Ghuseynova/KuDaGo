@@ -1,0 +1,11 @@
+[
+	{ "name": "все", "category": "all", "id": 1 },
+	{ "name": "еда", "category": "restoran", "id": 2 },
+	{ "name": "игры", "category": "game", "id": 3 },
+	{ "name": "фестивали", "category": "festival", "id": 4 },
+	{ "name": "отдых", "category": "rest", "id": 5 },
+	{ "name": "кино", "category": "movie", "id": 6 },
+	{ "name": "образование", "category": "education", "id": 7 },
+	{ "name": "дети", "category": "children", "id": 8 },
+	{ "name": "спектакли", "category": "plays", "id": 9 }
+]

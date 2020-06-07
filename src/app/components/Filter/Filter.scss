@@ -1,0 +1,44 @@
+$main-color: #ea4c89;
+$font-color: #6e6d7a;
+.filter {
+	display: flex;
+	flex-wrap: nowrap;
+	max-width: 80rem;
+	margin: 0 -15px;
+	overflow-x: scroll;
+
+	&::-webkit-scrollbar {
+		height: 4px;
+		background: $font-color;
+		border-radius: 4px;
+	}
+
+	&::-webkit-scrollbar-thumb:horizontal {
+		background: $main-color;
+		border-radius: 10px;
+	}
+
+	&__item {
+		display: inline-block;
+		min-width: max-content;
+		padding: 10px 15px;
+		color: $font-color;
+		font-weight: 400;
+		font-size: 1.4rem;
+		line-height: 2rem;
+		text-transform: capitalize;
+		cursor: pointer;
+		transition: all 200ms ease;
+
+		&:hover,
+		&.active {
+			color: #0d0c22;
+		}
+
+		&.active {
+			font-weight: 700;
+			background: rgba(13, 12, 34, 0.05);
+			border-radius: 8px;
+		}
+	}
+}

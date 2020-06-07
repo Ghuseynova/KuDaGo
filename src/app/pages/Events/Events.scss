@@ -1,0 +1,29 @@
+.events {
+	// &__container {
+	// }
+
+	&__top {
+		padding: 50px 0;
+
+		&-bottom {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding-top: 35px;
+		}
+	}
+
+	&__btn {
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	// &__title {
+	// }
+
+	// &__filter {
+	// }
+
+	// &__content {
+	// }
+}
