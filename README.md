@@ -1,4 +1,7 @@
 # KuDaGo
+
+<a href="https://ghuseynova.github.io/kudago/">DEMO</a>
+
 Учебный проект «KuDaGo» (Тестовое задание))
 
 <div><code> npm i </code>- устанавливает все необходимые зависимости проекта</div>
