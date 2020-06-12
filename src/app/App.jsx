@@ -1,10 +1,5 @@
 import React from "react"
-import {
-	BrowserRouter as Router,
-	Route,
-	Switch,
-	Redirect,
-} from "react-router-dom"
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom"
 import Header from "./components/Header/Header"
 import Events from "./pages/Events/Events"
 import Favourites from "./pages/Favourites/Favourites"
@@ -12,7 +7,7 @@ import EventDetail from "./pages/EventDetail/EventDetail"
 
 const App = () => {
 	return (
-		<Router>
+		<HashRouter>
 			<div className="app">
 				<div className="app-header">
 					<Header />
@@ -29,7 +24,7 @@ const App = () => {
 					</Switch>
 				</div>
 			</div>
-		</Router>
+		</HashRouter>
 	)
 }
 

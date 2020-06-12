@@ -68,7 +68,7 @@ const Event = ({ event, addToFavourite, removeFromFavourite, favs }) => {
 				</div>
 				<div className="event__preview">
 					<img
-						src={`../../../img/${event.image}`}
+						src={`./img/${event.image}`}
 						alt="event preview"
 						className="event__preview-file"
 					/>

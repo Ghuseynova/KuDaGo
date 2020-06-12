@@ -25,6 +25,7 @@ module.exports = {
     },
     output: {
         path: path.join(__dirname, 'dist'),
+        publicPath: "",
         filename: '[name].js'
     },
     module: {
@@ -81,32 +82,14 @@ module.exports = {
                 ]
             },
             {
-				test: /\.(svg|png|gif|jpe?g)$/,
+				test: /\.(svg|png|gif|jpg)$/,
 				use: [
 					{
 						loader: 'file-loader',
-						options: {
-							name: '[name].[ext]',
-                            outputPath: 'img',
-						}
 					},
 					'img-loader'
 				]
 			},
-            // {
-			// 	test: /\.(svg|png|gif|jpe?g)$/,
-			// 	use: [
-			// 		{
-			// 			loader: 'file-loader',
-			// 			options: {
-			// 				name: `[path][name].[ext]`,
-
-
-			// 			}
-			// 		},
-			// 		'img-loader'
-			// 	]
-			// }
 
         ]
     },

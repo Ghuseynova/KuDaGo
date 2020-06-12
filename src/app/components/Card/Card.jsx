@@ -21,7 +21,7 @@ const Card = ({
 						className="card__link"
 					>
 						<img
-							src={`../../../img/${dataEvent.image}`}
+							src={`./img/${dataEvent.image}`}
 							alt=""
 							className="card__preview-file"
 						/>

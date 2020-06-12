@@ -21,7 +21,7 @@ module.exports = {
 		],
 	},
 	output: {
-		filename: '[name].js'
+		filename: '[name].js',
 	},
 	devServer: {
 		historyApiFallback: true,
@@ -80,11 +80,7 @@ module.exports = {
 				use: [
 					{
 						loader: 'file-loader',
-						options: {
-							name: `[path][name].[ext]`,
-
-
-						}
+                        options: `[path][name].[ext]`
 					},
 					'img-loader'
 				]

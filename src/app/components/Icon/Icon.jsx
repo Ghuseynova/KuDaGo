@@ -6,7 +6,7 @@ import "./Icon.scss"
 const Icon = ({ className, iconId }) => {
 	return (
 		<svg className={classNames("icon", className)}>
-			<use href={`../../../img/sprite.svg#${iconId}`} />
+			<use href={`./img/sprite.svg#${iconId}`} />
 		</svg>
 	)
 }
